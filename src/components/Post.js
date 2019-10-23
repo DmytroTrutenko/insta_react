@@ -5,7 +5,8 @@ export default class Post extends Component {
     render(){
         return(
             <div className = 'post'>
-                <User src ='https://mawaleinfotech.com/images/about-man-img.jpg' 
+                <User
+                    src ='https://mawaleinfotech.com/images/about-man-img.jpg' 
                     alt = 'man'
                     name ='Scott'
                     min/>
